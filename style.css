@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+}
+
+#MasterFrame {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: coral;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#links {
+    gap: 10px;
+    display: flex;
+}
+
+#lancamentos {
+    background-color: darkolivegreen;
+}
+
+#lancamentos>h1 {
+    text-align: center;
+}
+
+#lancamentos-conteudo {
+    display: flex;
+    gap: 30px;
+
+}
