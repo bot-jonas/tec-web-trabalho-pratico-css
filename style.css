@@ -1,11 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: white;
 }
 
 #MasterFrame {
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: coral;
+    background-color: #c0c1bf;
 }
 
 #menu {
@@ -19,7 +22,7 @@ body {
 }
 
 #lancamentos {
-    background-color: darkolivegreen;
+    background-color: #eee;
 }
 
 #lancamentos>h1 {
@@ -30,4 +33,25 @@ body {
     display: flex;
     gap: 30px;
 
+}
+
+#destaque {
+    background-color: white;
+    border-top: 1px solid #ececec;
+}
+
+.container {
+    /* TODO: Definir o tamanho final */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#destaque header {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+#destaque h1 {
+    color: #141f30;
 }
