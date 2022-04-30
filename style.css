@@ -188,16 +188,19 @@ iframe {
 #TodasAvaliacoes{
     display: flex;
     flex-direction: row;
+    gap: 60px;
 }
 .Avaliacao{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-right: 60px;
+    justify-content: space-between;
+    
 }
 .Avaliacao > img{
     flex:2;
     margin-right: 20px;
+
 }
 .Avaliacao > .CoreAvaliacao{
     flex:8;
