@@ -170,3 +170,74 @@ iframe {
 #destaque-content > img {
     width: 250px;
 }
+
+
+/* Seção 4 */
+#Secao4{
+    background-color: #fff;
+}
+#UltimasAvaliacoes{
+    display:flex;
+    flex-direction: column;
+}
+#UltimasAvaliacoes img{width:20px;}
+#CabecalhoAvaliacoes{
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+#TodasAvaliacoes{
+    display: flex;
+    flex-direction: row;
+}
+.Avaliacao{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 60px;
+}
+.Avaliacao > img{
+    flex:2;
+    margin-right: 20px;
+}
+.Avaliacao > .CoreAvaliacao{
+    flex:8;
+}
+
+.CoreAvaliacao{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.titleAvaliacao{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.starsAvaliacao{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#MaisAvaliacoes{
+    background-color: #222;
+    color: #fff;
+    padding: 6px 20px;
+    align-self: flex-end;
+    margin:60px 0;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+#MaisAvaliacoes:hover{
+    background-color: #888;
+}
+#MaisAvaliacoes a{
+    text-decoration: none;
+    color: #fff;
+}
