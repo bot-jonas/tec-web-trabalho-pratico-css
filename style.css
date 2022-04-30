@@ -51,6 +51,7 @@ body {
 .section-5-container {
     display: flex;
     justify-content: space-between;
+    gap: 32px;
 }
 .section-5-card {
     grid-template-columns: repeat(3, 3fr);
@@ -135,7 +136,7 @@ iframe {
 
 .container {
     /* TODO: Definir o tamanho final */
-    max-width: 1200px;
+    max-width: 80%;
     margin: 0 auto;
     overflow: hidden;
 }
