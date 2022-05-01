@@ -86,9 +86,7 @@ body {
 }
 
 .adicional {
-    position: relative;
     font-size: 25px;
-    top: 1.7px;
     padding-right: 5px;
 }
 
@@ -172,10 +170,6 @@ iframe {
 /* Seção 4 */
 #Secao4{
     background-color: #fff;
-}
-#UltimasAvaliacoes{
-    display:flex;
-    flex-direction: column;
 }
 #UltimasAvaliacoes img{width:20px;}
 #CabecalhoAvaliacoes{
