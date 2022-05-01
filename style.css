@@ -247,6 +247,10 @@ iframe {
 }
 
 .section-6 {
+    background-color: white;
+}
+
+.section-6 .container {
     display: flex;
 }
 
@@ -259,13 +263,11 @@ iframe {
 }
 .section-6-card {
     display: flex;
-    margin-left: 50px;
     margin-bottom: 10px;
 }
 .section-6-card-title {
     padding: 5px 0 5px 0;
     margin-left: 40px;
-    margin-top: 40px;
     
 }
 .section-6-card-text {
@@ -282,9 +284,8 @@ iframe {
     line-height: 25px;
 }
 .section-6-avatar {
-    margin-top: -10px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 .section-6-text-spacing {
     margin-left: 10px; 
@@ -298,6 +299,12 @@ iframe {
     margin-bottom: 25px;
 }
 
-.section-6-spacing-title {
-    margin-left: 50px;
+.section-6-editorial-card {
+    display: flex;
+    align-items: center;
+}
+
+.section-6-text {
+    display: flex;
+    align-items: center;
 }
