@@ -59,6 +59,7 @@ body {
 #lancamentos-footer .item:after {
     content: "⬤";
     color: #BBB;
+    font-size: 8pt;
 }
 
 #lancamentos-footer .selected:after {
@@ -178,6 +179,7 @@ iframe {
     padding: 10px;
     border-radius: 3px;
     width: 300px;
+    border: 1px solid #000;
 }
 
 #destaque-header select > option {
