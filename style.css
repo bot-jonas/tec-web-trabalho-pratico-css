@@ -158,12 +158,13 @@ iframe {
 }
 
 #destaque-content {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
 }
 
 #destaque-content > img {
-    width: 250px;
+    width: 100%;
 }
 
 
