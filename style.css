@@ -252,6 +252,7 @@ iframe {
 
 .section-6 .container {
     display: flex;
+    gap: 40px;
 }
 
 .section-6-firt-column {
@@ -272,7 +273,6 @@ iframe {
 }
 .section-6-card-text {
     margin-left: 40px;
-    padding-right: 180px;
 }
 .section-6-img {
     width: 250px;
@@ -280,7 +280,6 @@ iframe {
 }
 
 .section-6-second-column-text {
-    padding-right: 170px;
     line-height: 25px;
 }
 .section-6-avatar {
