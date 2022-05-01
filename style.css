@@ -8,11 +8,16 @@ body {
     font-family: system-ui;
 }
 
-#menu {
+.big-container {
+    padding: 0 64px;
+}
+
+#menu .big-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #links {
@@ -21,16 +26,43 @@ body {
 }
 
 #lancamentos {
-    background-color: #eee;
+    background-color: #ddd;
 }
 
-#lancamentos>h1 {
+#lancamentos-title {
     text-align: center;
+    font-size: 40px;
+    padding: 16px 0;
 }
 
 #lancamentos-conteudo {
     display: flex;
     gap: 30px;
+}
+
+#lancamentos-video {
+    flex: 1;
+    height: 480px;
+}
+
+#lancamentos-info {
+    flex: 1;
+}
+
+#lancamentos-footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    gap: 4px;
+}
+
+#lancamentos-footer .item:after {
+    content: "⬤";
+    color: #BBB;
+}
+
+#lancamentos-footer .selected:after {
+    color: black;
 }
 
 /*Entrevistas & Making of*/
