@@ -59,7 +59,7 @@ a:hover {
 #lancamentos-title {
     text-align: center;
     font-size: 40px;
-    padding: 16px 0;
+    padding: 48px 0;
 }
 
 #lancamentos-conteudo {
@@ -69,6 +69,10 @@ a:hover {
 
 #lancamentos-video {
     flex: 1;
+}
+
+#lancamentos-video img {
+    width: 100%;
     aspect-ratio: 16/9;
 }
 
@@ -81,6 +85,15 @@ a:hover {
     justify-content: center;
     padding: 16px;
     gap: 4px;
+}
+
+#lancamentos-info h1, #lancamentos-info p {
+    margin-bottom: 16px;
+}
+
+#lancamento-info-itens {
+    display: flex;
+    gap: 20px;
 }
 
 #lancamentos-footer .item:after {
@@ -101,8 +114,7 @@ a:hover {
 .section-5-title {
     text-align: left;
     font-size: 40px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 48px 0;
 }   
 .section-5-container {
     display: flex;
@@ -112,9 +124,7 @@ a:hover {
 .section-5-card {
     grid-template-columns: repeat(3, 3fr);
 }
-.section-space{
-    
-}
+
 .section-5-text{
     font-size: 25px;
     margin-top: 5px;
@@ -131,7 +141,6 @@ a:hover {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 150px;
-    
 }
 
 .section-5-small-bold-text{
@@ -189,7 +198,6 @@ a:hover {
 }
 
 .container {
-    /* TODO: Definir o tamanho final */
     max-width: 80%;
     margin: 0 auto;
     overflow: hidden;
@@ -199,7 +207,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 16px 0;
+    margin: 48px 0;
 }
 
 #destaque-header select {
@@ -236,7 +244,7 @@ a:hover {
 #UltimasAvaliacoes img{width:20px;}
 #CabecalhoAvaliacoes{
     font-size: 25px;
-    margin-bottom: 60px;
+    margin:  48px 0;
 }
 #TodasAvaliacoes{
     display: flex;
@@ -343,11 +351,16 @@ a:hover {
 }
 
 .section-6-social-media {
-    width: 60px;
-    height: 60px;
+    height: 40px;
 }
 .section-6-spacing-avatar {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.section-6-title {
+    font-size: 40px;
+    margin-bottom: 16px;
+    margin-top: 32px;
 }
 
 .section-6-editorial-card {
@@ -363,6 +376,10 @@ a:hover {
 .section-6-separator {
     border: 1px solid #c1c1c1;
     margin: 32px 0;
+}
+
+.icons {
+    gap: 30px;
 }
 
 #main-footer {
