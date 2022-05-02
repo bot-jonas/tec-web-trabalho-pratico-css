@@ -316,6 +316,10 @@ a:hover {
     padding-bottom: 32px;
 }
 
+.section-6-thumbnail {
+    width: 100%;
+}
+
 .section-6-firt-column {
     flex: 2;
 }
